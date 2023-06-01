@@ -1,4 +1,4 @@
-<?php 
+<?php
 global $theme_uri;
 ?>
 <!DOCTYPE html>
@@ -9,10 +9,12 @@ global $theme_uri;
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tinh Tế</title>
-    <link rel="stylesheet" href="<?= $theme_uri ?>/css/style.css">
+    <!-- gọi style css đã được đăng ký function.php -->
+    <?php wp_head(); ?>
 
 
 </head>
 
 <body>
+    <!-- phân tách header ra nhiều đoạn  -->
     <?php get_template_part('/header/header', 'tinhte'); ?>

@@ -1,3 +1,6 @@
+<?php
+global $theme_uri;
+?>
 <header class="header">
         <div class="header-wrapper">
             <div class="container-header">
@@ -5,7 +8,7 @@
                     <div class="col-2">
                         <a href="">
                             <div class="tinhte-logo">
-                                <img src="<?php bloginfo('template_directory'); ?>/img/logo.jpg" rx="20" class="logo">
+                                <img src="<?= $theme_uri ?>/img/logo.jpg" rx="20" class="logo">
                             </div>
                             <div class="tinhte-text">
                                 <div class="tinhte-text__name">Tinhte</div>
@@ -47,7 +50,7 @@
                                 </svg>
                                 <span class="fa-sharp fa-solid fa-bars">
                                     <a href="">
-                                        <img src="<?php bloginfo('template_directory'); ?>/img/menu.png" alt=""
+                                        <img src="<?= $theme_uri ?>/img/menu.png" alt=""
                                             width="32" height="32">
                                     </a>
                                 </span>

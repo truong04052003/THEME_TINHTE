@@ -1,8 +1,10 @@
 
-
+<!-- gọi phần header đã được tách  -->
 <?php get_header(); ?>
 
 <!-- PHẦN MAIN -->
+
+<!-- phân tách menu  -->
 <?php get_template_part('/navigation/menu', 'main'); ?>
 
 
