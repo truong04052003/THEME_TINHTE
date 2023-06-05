@@ -12,7 +12,13 @@ global $theme_uri;
     <!-- gọi style css đã được đăng ký function.php -->
     <?php wp_head(); ?>
 
-
+    <style>
+        img.attachment-medium.size-medium.wp-post-image {
+            height: 148px;
+            width: 240px;
+            border-radius: 8px;
+        }
+    </style>
 </head>
 
 <body>

@@ -213,7 +213,7 @@ ul.menu-page {
   background-color: #ffffff;
 }
 
-a.name-menu-page {
+/* a.name-menu-page {
   font-size: 18px;
   font-weight: 500;
   padding: 0 0 8px;
@@ -227,9 +227,9 @@ a.name-menu-page {
   height: 32px;
   position: relative;
   color: black;
-}
+} */
 
-ul.menu-page li.li-main a {
+ul.menu-page a {
   font-size: 18px;
   padding: 0 0 8px;
   margin-right: 24px;
@@ -242,6 +242,7 @@ ul.menu-page li.li-main a {
   line-height: 1;
   height: 32px;
   position: relative;
+  color: black;
 }
 
 ul.menu-page li.active a:after {
