@@ -890,7 +890,7 @@
                                 <?php while (have_posts()):
                                     the_post(); ?>
                                             <li class="">
-                                            <?php get_template_part('/post/content'); ?>
+                                            <?php get_template_part('/post/content',null,['post_id'=>get_the_ID()]); ?>
                                             </li>
                                         <br class="">
                                 <?php endwhile; ?>
@@ -1044,7 +1044,7 @@
                                 <?php while (have_posts()):
                                     the_post(); ?>
                                             <li class="">
-                                            <?php get_template_part('/post/content'); ?>
+                                            <?php get_template_part('/post/content',null,['post_id'=>get_the_ID()]); ?>
 
                                             </li>
                                             <br class="">
@@ -1075,7 +1075,7 @@
                                 <?php while (have_posts()):
                                     the_post(); ?>
                                             <li class="">
-                                            <?php get_template_part('/post/content'); ?>
+                                            <?php get_template_part('/post/content',null,['post_id'=>get_the_ID()]); ?>
 
                                             </li>
                                             <br class="">
@@ -1090,7 +1090,7 @@
                                 <?php while (have_posts()):
                                     the_post(); ?>
                                             <li class="">
-                                            <?php get_template_part('/post/content'); ?>
+                                            <?php get_template_part('/post/content',null,['post_id'=>get_the_ID()]); ?>
 
                                             </li>
                                             <br class="">
@@ -1533,7 +1533,7 @@
                                     <?php while (have_posts()):
                                         the_post(); ?>
                                             <li class="">
-                                            <?php get_template_part('/post/content'); ?>
+                                            <?php get_template_part('/post/content',null,['post_id'=>get_the_ID()]); ?>
 
                                             </li>
                                             <br class="">
