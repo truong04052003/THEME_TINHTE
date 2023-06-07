@@ -2208,7 +2208,6 @@ img.img-community {
 }
 
 .img-hottag {
-  background-image: url(/TINHTE/images/macbook.jpg);
   width: 100%;
   height: 60px;
   cursor: pointer;
@@ -2218,7 +2217,6 @@ img.img-community {
 }
 
 .img-hottag-two {
-  background-image: url(/TINHTE/images/ios.jpg);
   width: 100%;
   height: 60px;
   cursor: pointer;

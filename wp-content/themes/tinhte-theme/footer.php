@@ -2,9 +2,9 @@
 <section class="footer">
     <div class="footer-ft">
         <!-- phân tách footer ra nhiêuf đoạn -->
-        <?php get_template_part('/footer/footer', 'top'); ?>
-        <?php get_template_part('/footer/footer', 'main'); ?>
-        <?php get_template_part('/footer/footer', 'bottom'); ?>
+        <?php get_template_part('template-parts/footer/footer', 'top'); ?>
+        <?php get_template_part('template-parts/footer/footer', 'main'); ?>
+        <?php get_template_part('template-parts/footer/footer', 'bottom'); ?>
     </div>
 
 </section>

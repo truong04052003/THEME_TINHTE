@@ -5,7 +5,7 @@
 <!-- PHẦN MAIN -->
 
 <!-- phân tách menu  -->
-<?php get_template_part('/navigation/menu', 'main'); ?>
+<?php get_template_part('template-parts/navigation/menu', 'main'); ?>
 
 
 <div class="page-layout">
@@ -889,10 +889,10 @@
                                 <!-- start loop  -->
                                 <?php while (have_posts()):
                                     the_post(); ?>
-                                            <li class="">
-                                            <?php get_template_part('/post/content',null,['post_id'=>get_the_ID()]); ?>
-                                            </li>
-                                        <br class="">
+                                                <li class="">
+                                                <?php get_template_part('template-parts/post/content', null, ['post_id' => get_the_ID()]); ?>
+                                                </li>
+                                            <br class="">
                                 <?php endwhile; ?>
                                 <!-- end loop  -->
                             
@@ -1043,11 +1043,11 @@
                                 <!-- start loop  -->
                                 <?php while (have_posts()):
                                     the_post(); ?>
-                                            <li class="">
-                                            <?php get_template_part('/post/content',null,['post_id'=>get_the_ID()]); ?>
+                                                <li class="">
+                                                <?php get_template_part('template-parts/post/content', null, ['post_id' => get_the_ID()]); ?>
 
-                                            </li>
-                                            <br class="">
+                                                </li>
+                                                <br class="">
                                 <?php endwhile; ?>
                                 <!-- end loop  -->
                        
@@ -1074,11 +1074,11 @@
                                 <!-- start loop  -->
                                 <?php while (have_posts()):
                                     the_post(); ?>
-                                            <li class="">
-                                            <?php get_template_part('/post/content',null,['post_id'=>get_the_ID()]); ?>
+                                                <li class="">
+                                                <?php get_template_part('template-parts/post/content', null, ['post_id' => get_the_ID()]); ?>
 
-                                            </li>
-                                            <br class="">
+                                                </li>
+                                                <br class="">
                                 <?php endwhile; ?>
                                 <!-- end loop  -->
                                 
@@ -1089,11 +1089,11 @@
                                            <!-- start loop  -->
                                 <?php while (have_posts()):
                                     the_post(); ?>
-                                            <li class="">
-                                            <?php get_template_part('/post/content',null,['post_id'=>get_the_ID()]); ?>
+                                                <li class="">
+                                                <?php get_template_part('template-parts/post/content', null, ['post_id' => get_the_ID()]); ?>
 
-                                            </li>
-                                            <br class="">
+                                                </li>
+                                                <br class="">
                                 <?php endwhile; ?>
                                 <!-- end loop  -->
 
@@ -1532,11 +1532,11 @@
                                     <!-- start loop  -->
                                     <?php while (have_posts()):
                                         the_post(); ?>
-                                            <li class="">
-                                            <?php get_template_part('/post/content',null,['post_id'=>get_the_ID()]); ?>
+                                                <li class="">
+                                                <?php get_template_part('template-parts/post/content', null, ['post_id' => get_the_ID()]); ?>
 
-                                            </li>
-                                            <br class="">
+                                                </li>
+                                                <br class="">
                                 <?php endwhile; ?>
                                 <!-- end loop  -->
 
@@ -1819,13 +1819,14 @@
                         <div class="heading-hot">
                             <div class="section-taghot">#Tag đang HOT</div>
                             <span class="icon-tag">
-                                <img src="<?= $theme_uri; ?>/img/icon-tag.png" class=""></span>
+                                <img src="<?= $theme_uri; ?>/img/icon-tag.png" class="">
+                            </span>
                         </div>
                         <div class="sub-tag">
                             <div class="trend-hot">
                                 <a href="" class="link-tag">
                                     <div class="wrapper-tag">
-                                        <div class="img-hottag"></div>
+                                        <img src="<?= $theme_uri; ?>/img/macbook.jpg" alt="" class="img-hottag">
                                     </div>
                                     <div class="title-text-hot">#
                                         <!-- -->windows
@@ -1835,8 +1836,7 @@
                             <div class="trend-hot">
                                 <a href="" class="link-tag">
                                     <div class="wrapper-tag">
-                                        <div class="img-hottag-two">
-                                        </div>
+                                     <img src="<?= $theme_uri; ?>/img/ios.jpg" alt="" class="img-hottag-two">
                                     </div>
                                     <div class="title-text-hot">#
                                         <!-- -->macos

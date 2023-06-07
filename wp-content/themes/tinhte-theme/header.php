@@ -23,4 +23,4 @@ global $theme_uri;
 
 <body>
     <!-- phân tách header ra nhiều đoạn  -->
-    <?php get_template_part('/header/header', 'tinhte'); ?>
+    <?php get_template_part('template-parts/header/header', 'tinhte'); ?>
