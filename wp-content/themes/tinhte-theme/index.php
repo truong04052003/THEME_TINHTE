@@ -1050,9 +1050,7 @@
                                                 <br class="">
                                 <?php endwhile; ?>
                                 <!-- end loop  -->
-                       
-    
-
+                         
                                 <br class="">
                                 <div class="login-containers">
                                     <div class="login-foru">
